@@ -4,7 +4,7 @@ metadata:
   name: catalogue
 data:
   MONGO: "true"
-  MONGO_URL: {{ .Values.config.mongoURL }}
+  MONGO_URL: {{ .Values.configmap.mongoURL }}
 
 ---
 apiVersion: apps/v1
